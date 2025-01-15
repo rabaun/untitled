@@ -19,6 +19,8 @@ void main() async {
 class MyApp extends StatelessWidget {
   final UserRepository userRepository = UserRepository();
 
+  MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
